@@ -1,0 +1,150 @@
+/* Reset Básico y Box Sizing */
+*{
+    padding:0px;
+    margin:0px;
+    box-sizing: border-box; 
+ }
+
+/* Estilos de la Cabecera (tomado de estilos4.css) */
+header{
+    background-color:darkkhaki
+}
+
+header h1 {
+    font-family: "Great Vibes", cursive;
+    font-size: 3em;
+    font-weight: 400; 
+}
+
+/* Navbar: Hace que la barra de navegación se pegue al hacer scroll */
+.sticky-top {
+    top: 0;
+    z-index: 1020; /* Asegura que esté sobre el contenido */
+}
+
+/* Contenedor principal de secciones (opcional: puedes usar un fondo oscuro) */
+/* main {
+    background-color: #111; 
+} */
+
+/* Estilos de los Artículos (tomado de estilos4.css) */
+.custom-article{
+    background-color:darkkhaki(30, 94, 168); /* Azul vibrante */
+    border: 5px solid black;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.5);
+    color: white;
+}
+
+/* Estilos para las imágenes (placeholders) */
+.carousel-img-placeholder {
+    height: 400px; /* Altura para el carrusel */
+    object-fit: cover;
+    background-color: #000000;
+    line-height: 400px;
+    text-align: center;
+    color: gray;
+    font-size: 2em;
+}
+
+.article-img-placeholder {
+    height: 150px;
+    width: 100%;
+    object-fit: cover;
+    background-color: #333;
+    line-height: 150px;
+    text-align: center;
+    color: #666;
+    font-size: 1em;
+}
+
+.gallery-img-placeholder {
+    height: 250px; /* Altura para las imágenes de la galería */
+    object-fit: cover;
+    background-color: #444;
+    line-height: 250px;
+    text-align: center;
+    color: #888;
+    font-size: 1em;
+}
+
+
+/* Pie de Página (tomado de estilos4.css) */
+footer{
+    background-color:rgb(163, 14, 168); /* Morado oscuro */
+    text-align: center;
+}/* Reset Básico y Box Sizing */
+*{
+    padding:0px;
+    margin:0px;
+    box-sizing: border-box; 
+ }
+
+/* Estilos de la Cabecera (tomado de estilos4.css) */
+header{
+    background-color: rgb(163, 14, 168); /* Morado oscuro */
+    color: white;
+}
+
+header h1 {
+    font-family: "Great Vibes", cursive;
+    font-size: 3em;
+    font-weight: 400; 
+}
+
+/* Navbar: Hace que la barra de navegación se pegue al hacer scroll */
+.sticky-top {
+    top: 0;
+    z-index: 1020; /* Asegura que esté sobre el contenido */
+}
+
+/* Contenedor principal de secciones (opcional: puedes usar un fondo oscuro) */
+/* main {
+    background-color: #111; 
+} */
+
+/* Estilos de los Artículos (tomado de estilos4.css) */
+.custom-article{
+    background-color: rgb(30, 94, 168); /* Azul vibrante */
+    border: 5px solid black;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.5);
+    color: white;
+}
+
+/* Estilos para las imágenes (placeholders) */
+.carousel-img-placeholder {
+    height: 400px; /* Altura para el carrusel */
+    object-fit: cover;
+    background-color: #000;
+    line-height: 400px;
+    text-align: center;
+    color: gray;
+    font-size: 2em;
+}
+
+.article-img-placeholder {
+    height: 150px;
+    width: 100%;
+    object-fit: cover;
+    background-color: #333;
+    line-height: 150px;
+    text-align: center;
+    color: #666;
+    font-size: 1em;
+}
+
+.gallery-img-placeholder {
+    height: 250px; /* Altura para las imágenes de la galería */
+    object-fit: cover;
+    background-color: #444;
+    line-height: 250px;
+    text-align: center;
+    color: #888;
+    font-size: 1em;
+}
+
+
+/* Pie de Página (tomado de estilos4.css) */
+footer{
+    background-color: rgb(158, 28, 170); /* Morado oscuro */
+    text-align: center;
+}
